@@ -4,32 +4,21 @@ a {
 }
 body {
     font-family: "나눔고딕", NanumGothic, "맑은고딕", MalgunGothic, "Apple SD Gothic Neo", sans-serif;
-    line-height: 1.9;
+    line-height: 1.7;
     color: #432;
-}
-.justify-content-end {
-    /* float: right; */
 }
 #home{
     position: relative;
     background: #FFFFFF;
-    /* width: 1200px; */
+    width: 1200px;
     height: 1717px;
     margin: 0 auto;
 }
 main {
-    width: 1200px;
     margin-left: 80px;
 }
-main div {
-    margin-bottom: 50px;
-    /* line-height: 1.5; */
-}
-.box {
-    width: 1100px;
-}
 
-h2,h3,h4,h5, h6 {
+h2,h4,h5 {
     margin-left: 100px;
 }
 
@@ -38,30 +27,25 @@ h4,h5{
 }
 table {
     width: 700px;
-    margin-left: 170px;
+    margin-left: 120px;
     margin-right: 120px;
     text-align: center;
-    margin-bottom: 20px;
 }
 
 h2 {
     border-bottom: 1px solid rgba(68, 51, 34, .3);
-    width: 780px;
-}
-h3 {
-    border-bottom: 1px solid rgba(68, 51, 34, .3);
-    width: 800px;
+    width: 750px;
 }
 
 .box {
     border-bottom: 1px solid rgba(68, 51, 34, .3);
 }
 
-/* .koction-grade img {
-    margin: 0px 0px;
-} */
+.koction-grade img {
+    margin: 18px 0px;
+}
 #vip {
-    margin-left: 130px;
+    margin-left: 107px;
 }
 #gold {
     margin-left: 31px;
@@ -70,7 +54,7 @@ h3 {
     margin-left: 29px;
 }
 #normal {
-    margin-left: 179px;
+    margin-left: 151px;
 }
 
 table {
@@ -90,3 +74,52 @@ table td {
 
 /*마이페이지 footer*/
 
+footer {
+    border-top: 1px solid #432;
+    display: block;
+    /* position: relative; */
+    /* transform: translateY(100%); */
+    /* position: fixed; */
+    bottom: 0; 
+    width: 100%; /* 가로 사이즈를 브라우저에 가득 채움 */
+}
+
+.footer-div {
+    height: 90px;
+}
+
+.footer1 {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+
+.footer2 {
+    display: inline-block;
+    height: 90px;
+}
+
+.footer3 {
+    display: inline-block;
+}
+
+footer p {
+    margin-left: 100px;
+}
+
+footer span {
+    margin-right: 100px;
+    float: right;
+}
+
+h2.call-number {
+    margin: 0;
+}
+
+.footer2 strong {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.footer3 strong {
+    font-size: 17px;
+}
