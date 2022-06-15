@@ -89,7 +89,6 @@
                                 <th>총 구매금액</th>
                                 <td>
                                     <p id="total"></p>
-                                    <p>(구매 수수료 포함)</p>
                                 </td>
                             </tr>
                         </table>
@@ -126,7 +125,7 @@
             function total(){
                 $total = $price + ($price*0.1);
                 console.log($total);
-                $("#total").text(String($total).replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",") + '원');
+                $("#total").text(String($total).replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",") + '원'+' (구매 수수료 포함)');
             }
         });
     </script>
