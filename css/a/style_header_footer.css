@@ -19,17 +19,17 @@ header .wrap{
     margin: 0 auto;
     justify-content: space-between;
 }
-header  .top-bg{
+.top-bg{
     height: 30px;
     border-top: 3px solid rgb(18,100,100);
     background: rgb(245, 245, 245);
 
 }
-header .top-navbar{
+.top-navbar{
     max-width: 1200px;
     margin: 0 auto;
 }
-header .top-navbar a, .top-navbar a:hover, .top-navbar a:focus{
+.top-navbar a, .top-navbar a:hover, .top-navbar a:focus{
     font-size: 14px;
     padding: 3px 0px 8px;
     margin-left: 12px;
@@ -38,21 +38,21 @@ header .top-navbar a, .top-navbar a:hover, .top-navbar a:focus{
     color: rgb(99, 99, 99);
     text-decoration: none;
 }
-header  .logo{
+.logo{
     width: 250px;
 }
-header .logo img{
+.logo img{
     margin-top: 6px;
     margin-left: 15px;
     width: 225px;
 }
-header .navbar .container-fluid{
+.navbar .container-fluid{
     justify-content: flex-end;
 }
-header .navbar-nav{
+.navbar-nav{
     align-items: center;
 }
-header .navbar-nav a{
+.navbar-nav a{
     margin: 0 5px;
 }
 @media (min-width: 992px){
@@ -82,25 +82,25 @@ header .navbar-nav a{
         box-sizing:content-box;
         z-index: 1;
     }
-    header .navbar-collapse a{
+    .navbar-collapse a{
         border-bottom: 1px solid gray;
     }
-    header .navbar-collapse .last-nav{
+    .navbar-collapse .last-nav{
         border-bottom: none;
     }
-    header .navbar-nav img{
+    .navbar-nav img{
         display: none;
     }
 
 }
-header .nav-link{
+.nav-link{
     font-size: 1.7rem;
 }
-header .wrap .nav-link:hover, .wrap .nav-link:focus{
+.wrap .nav-link:hover, .wrap .nav-link:focus{
     font-weight:bold;
     color: rgb(18, 100, 100);
 }
-header  .nav img{
+.nav img{
     height:16px;
     margin-top: 13px;
 }

@@ -4,49 +4,40 @@
     margin-top: 100px;
     border-bottom: 2px solid rgba(68, 51, 34, .3);
 }
-
+main>div>.title{
+    margin-top: 30px;
+    color: rgb(57, 57, 57);
+    text-align: center;   
+    font-size: 35px;
+}
 .box2 {
-    width: 1100px;
+    width: 100%;
     margin-bottom: 100px;
     border-bottom: 1px solid rgba(68, 51, 34, .3);
 }
 
-h1 {
-    margin-left: 50px;
-}
-
-h2,h3,h4,h5, h6 {
-    margin-left: 100px;
-}
-
-h4,h5{
-    margin-left: 140px;
-}
-
-h2 {
-    border-bottom: 1px solid rgba(68, 51, 34, .3);
-    width: 780px;
-}
-
-
-
-
 #main-title-header {
-    width: 1000px;
+    width: 80%;
     background: #f8f8f8;
-    font-size: 12px;
-    margin: 30px 55px;
+    font-size: 14px;
     border: 1px solid #D6D6D6;
+    margin-bottom: 3%;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 #main-title-header p:nth-child(1){
-    padding-top: 20px;
-    padding-left: 40px;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 
 #main-title-header p:nth-child(2){
-    padding-bottom: 10px;
-    padding-left: 40px;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
 }
 
