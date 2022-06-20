@@ -10,6 +10,11 @@ main>div>.title{
     width: 100%;
     margin-top: 50px;
 }
+.container .col{
+    padding: 8px 0;
+    font-size:30px;
+}
+
 
 main article{
     position: relative;
@@ -32,7 +37,7 @@ h3 {
 }
 .mypage-info {
     margin-top: 30px;
-    width: 70%;
+    width: 80%;
 }
 .buy-box {
     margin-right: 10%;

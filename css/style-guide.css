@@ -67,18 +67,18 @@ h3 {
 /* .koction-grade img {
     margin: 0px 0px;
 } */
-#vip {
-    margin-left: 9%;
+/* #vip {
+    margin-left: 8.8%;
 }
 #gold {
-    margin-left: 0.5%;
+    margin-left: 0%;
 }
 #silver {
-    /* margin-left: 5%; */
+    margin-left: -0.75%;
 }
 #normal {
-    margin-left: 14%;
-}
+    margin-left: 13%;
+} */
 
 table {
     margin-top: 30px;
@@ -94,6 +94,15 @@ table th{
 table td {
     border-bottom: 1px solid #ddd;
 }
+
+#koction-grade-table {
+    width: 60%;
+   
+}
+
+/* #koction-grade-table td {
+    border-bottom: 1px solid #ddd;
+} */
 
 /*마이페이지 footer*/
 
