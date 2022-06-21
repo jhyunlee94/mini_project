@@ -18,8 +18,8 @@
         <div class="top-bg">
             <div class="top-navbar">
                 <div class="nav justify-content-end">
-                    <a class="nav-link" href="#">로그인</a>
-                    <a class="nav-link" href="#">회원가입</a>
+                    <a class="nav-link" href="login.html">로그인</a>
+                    <a class="nav-link" href="register.html">회원가입</a>
                 </div>
             </div>
     
@@ -35,7 +35,7 @@
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav justify-content-end">
-                        <a class="nav-link" href="">이용안내</a>
+                        <a class="nav-link" href="guide.html">이용안내</a>
                         <img src="images/bar.png" alt="막대">
                         <a class="nav-link" href="Category.html">상품검색</a>
                         <img src="images/bar.png" alt="막대">
@@ -59,19 +59,19 @@
         <section class="menu-bar">
             <ul class="nav nav-Warning nav-justified">
                 <li class="nav-item">
-                  <a class="nav-link active" id="faq-article" href="support.html">F A Q</a>
+                  <a class="nav-link active" id="faq-article" href="#">F A Q</a>
                 </li>
                 <img src="images/bar.png"  alt="막대">
                 <li class="nav-item">
-                  <a class="nav-link" id="qna-article" href="qna.html">1:1문의</a>
+                  <a class="nav-link" id="qna-article" href="#">1:1문의</a>
                 </li>
                 <img src="images/bar.png" alt="막대">
                 <li class="nav-item">
-                  <a class="nav-link" id="notice-article" href="notice.html">공지사항</a>
+                  <a class="nav-link" id="notice-article" href="#">공지사항</a>
                 </li>
                 <img src="images/bar.png" alt="막대">
                 <li class="nav-item">
-                  <a class="nav-link" id="ad-article" href="ad.html">광고문의</a>
+                  <a class="nav-link" id="ad-article" href="#">광고문의</a>
                 </li>
               </ul>
         </section>
@@ -161,7 +161,7 @@
                         </div>
                     </div>
                 </div>
-                <nav aria-label="Page navigation FAQ">
+                <nav aria-label="Page navigation qna">
                     <ul class="pagination pagination-sm justify-content-center">
                     <li class="page-item disabled">
                         <a class="page-link" href="#" aria-label="Previous">
@@ -192,7 +192,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne-qna" aria-expanded="true" aria-controls="collapseOne-qna">
-                                내 문의내역1 (2022/06/02)
+                                <span class="qnaTitle">내 문의내역1</span><span class="qnaDate">2022.06.02</span>
                             </button>
                         </h2>
                         <div id="collapseOne-qna" class="accordion-collapse collapse" aria-labelledby="headingOne">
@@ -204,7 +204,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-qna" aria-expanded="false" aria-controls="collapseTwo-qna">
-                                내 문의내역2 (2022/04/02)
+                                <span class="qnaTitle">내 문의내역2</span><span class="qnaDate">2022.05.02</span>
                             </button>
                         </h2>
                         <div id="collapseTwo-qna" class="accordion-collapse collapse" aria-labelledby="headingTwo">
@@ -216,7 +216,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree-qna" aria-expanded="false" aria-controls="collapseThree-qna">
-                                내 문의내역3 (2022/04/02)
+                                <span class="qnaTitle">내 문의내역3</span><span class="qnaDate">2022.04.02</span>
                             </button>
                         </h2>
                         <div id="collapseThree-qna" class="accordion-collapse collapse" aria-labelledby="headingThree">
@@ -228,7 +228,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFour">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour-qna" aria-expanded="false" aria-controls="collapseFour-qna">
-                                내 문의내역4 (2022/03/02)
+                                <span class="qnaTitle">내 문의내역4</span><span class="qnaDate">2022.03.02</span>
                             </button>
                         </h2>
                         <div id="collapseFour-qna" class="accordion-collapse collapse" aria-labelledby="headingFour">
@@ -240,7 +240,7 @@
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFive">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive-qna" aria-expanded="false" aria-controls="collapseFive-qna">
-                                내 문의내역5 (2022/02/02)
+                                <span class="qnaTitle">내 문의내역5</span><span class="qnaDate">2022.02.02</span>
                             </button>
                         </h2>
                         <div id="collapseFive-qna" class="accordion-collapse collapse" aria-labelledby="headingFive">
@@ -267,6 +267,48 @@
                     </li>
                     </ul>
                 </nav>
+            </article>
+            <!--공지사항-->
+            <article class="notice-article hide-article">
+                <div class="search">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                    </form>
+                </div>
+                <table class="table notice-table">
+                    <thead>
+                      <tr>
+                        <th scope="col" class="notice-type">분류</th>
+                        <th scope="col" class="notice-title">제목</th>
+                        <th scope="col" class="notice-view">조회수</th>
+                        <th scope="col" class="notice-date">작성일</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td class="notice-type" scope="row">공지사항</td>
+                        <td class="notice-title">공지사항1공지사항1공지사항1공지사항1공지사항1공지사항1공지사항1공지사항1공지사항1공지사항1공지사항1공지사항1</td>
+                        <td>934</td>
+                        <td>22.06.02</td>
+                      </tr>
+                      <tr>
+                        <td class="notice-type" scope="row">공지사항</td>
+                        <td class="notice-title">공지사항2</td>
+                        <td>3421</td>
+                        <td>22.05.02</td>
+                      </tr>
+                      <tr>
+                        <td class="notice-type" scope="row">이벤트</td>
+                        <td class="notice-title">이벤트 안내</td>
+                        <td>6785</td>
+                        <td>22.05.02</td>
+                      </tr>
+                    </tbody>
+                  </table>
+            </article>
+            <article class="ad-article hide-article">
+
             </article>
         </section>  
     </main>

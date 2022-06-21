@@ -70,5 +70,17 @@ table {
 .btn:hover, .btn:focus {
     font-weight:bold;
     color: rgb(18, 100, 100);
+}
+#btn_bid{
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 0.5px solid rgba(57, 57, 57,0.5);
+}
+#btn_bid:hover, #btn_bid:focus {
+    font-weight:bold;
+    color: rgb(18, 100, 100);
+}
 
+img {
+    border-radius: 10px;
 }

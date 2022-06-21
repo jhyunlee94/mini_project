@@ -19,7 +19,7 @@ header .wrap{
     margin: 0 auto;
     justify-content: space-between;
 }
-header  .top-bg{
+header .top-bg{
     height: 30px;
     border-top: 3px solid rgb(18,100,100);
     background: rgb(245, 245, 245);
@@ -38,7 +38,7 @@ header .top-navbar a, .top-navbar a:hover, .top-navbar a:focus{
     color: rgb(99, 99, 99);
     text-decoration: none;
 }
-header  .logo{
+header .logo{
     width: 250px;
 }
 header .logo img{
@@ -95,12 +95,13 @@ header .navbar-nav a{
 }
 header .nav-link{
     font-size: 1.7rem;
+    color: rgb(99, 99, 99/90%);
 }
 header .wrap .nav-link:hover, .wrap .nav-link:focus{
     font-weight:bold;
     color: rgb(18, 100, 100);
 }
-header  .nav img{
+header .nav img{
     height:16px;
     margin-top: 13px;
 }

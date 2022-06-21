@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,39 +13,12 @@
     <script src="js/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <!-- <header>
+      <header>
         <div class="top-bg">
             <div class="top-navbar">
                 <div class="nav justify-content-end">
-                    <a class="nav-link" href="#">로그인</a>
-                    <a class="nav-link" href="#">회원가입</a>
-                </div>
-            </div>
-    
-        </div>
-        <div class="wrap">
-            <div class="logo">
-                <a href="index.html"><img src="images/main_logo.png" alt="로고"></a>
-            </div>
-            <nav class="nav justify-content-end ">
-                <a class="nav-link" href="guide.html">이용안내</a>
-                <img src="images/bar.png" alt="막대">
-                <a class="nav-link" href="#">상품검색</a>
-                <img src="images/bar.png" alt="막대">
-                <a class="nav-link" href="#">상품등록</a>
-                <img src="images/bar.png" alt="막대">
-                <a class="nav-link" href="#">고객센터</a>
-                <img src="images/bar.png" alt="막대">
-                <a class="nav-link" href="mypage.html" style="margin-right: 15px;">나의경매</a>
-            </nav>
-        </div>
-    </header> -->
-    <header>
-        <div class="top-bg">
-            <div class="top-navbar">
-                <div class="nav justify-content-end">
-                    <a class="nav-link" href="#">로그인</a>
-                    <a class="nav-link" href="#">회원가입</a>
+                    <a class="nav-link" href="login.html">로그인</a>
+                    <a class="nav-link" href="register.html">회원가입</a>
                 </div>
             </div>
     
@@ -61,7 +34,7 @@
                   </button>
                   <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav justify-content-end">
-                        <a class="nav-link" href="">이용안내</a>
+                        <a class="nav-link" href="guide.html">이용안내</a>
                         <img src="images/bar.png" alt="막대">
                         <a class="nav-link" href="Category.html">상품검색</a>
                         <img src="images/bar.png" alt="막대">
@@ -91,35 +64,65 @@
             <div class="box2">
             </div>
             <div>
-                <p>회원가입페이지 작성 후, 해당 코드 추가</p>
+                <section>
+                    <form action="index.html" class="register-form" name="register-form" id="join-form" onsubmit="return joinSubmit()">
+                        <fieldset>
+                        <legend>회원정보수정</legend>
+                            <ul class="register-info">
+                                <li>
+                                    <label for="reg-input-id">아이디</label>
+                                    <input type="text" id="reg-input-id" disabled required value="admin">
+                                </li>
+                                <li>
+                                    <label for="reg-input-pw">비밀번호</label>
+                                    <input type="password" id="reg-input-pw" required >
+                                </li>
+                                <li>
+                                    <label for="reg-input-pwchk">비밀번호 확인</label>
+                                    <input type="password" id="reg-input-pwchk" required >
+                                    <span id="pwchk-result" style="font-size: 12px; margin-left: 5px;">비밀번호 일치</span>
+                                </li>
+                                <li>
+                                    <label for="reg-input-name">이름</label>
+                                    <input type="text" id="reg-input-name" required >
+                                </li>
+                                <li>
+                                    <label for="reg-input-tel">전화번호</label>
+                                    <input type="tel" id="reg-input-tel"  pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" required >
+                                </li>
+                                <li>
+                                    <label for="reg-input-telchk">전화번호 인증</label>
+                                    <input type="number" id="reg-input-telchk" required >
+                                    <input type="button" value="인증번호 전송"  id="reg-input-telchk-btn">
+                                </li>
+                                <li>
+                                    <label for="reg-input-bank">계좌번호</label>
+                                    <input type="number" id="reg-input-bank" required >
+                                </li>
+                                <li>
+                                    <label for="reg-input-add">주소</label>
+                                    <input type="text" id="reg-input-add" required >
+                                    <input type="button" value="주소검색"  id="reg-input-add-btn">
+                                </li>
+                                <li>
+                                    <label for="reg-input-addDetail">상세주소</label>
+                                    <input type="text" id="reg-input-addDetail">
+                                </li>
+                                <li>
+                                    <label for="reg-input-mail">이메일</label>
+                                    <input type="email" id="reg-input-mail">
+                                </li>
+                                <li style="justify-content: center;">
+                                    <input type="button" value="뒤로가기"  id="go-back-btn">
+                                    <input type="submit" value="수정하기"  id="regist-sybmit-btn">
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </form>
+                </section>  
             </div>
         </div>
     </main>
-    <!-- <footer>
-        <div class="footer-div">
-            <div class="footer1">
-                <p><strong>Koction</strong>
-                    <br>서울특별시 강남구 강남대로 94길 20<br>
-                    상호명 : (주) 콕션<br>
-                    대표자 : 고기천<br>
-                </p>
-            </div>
-            <div class="footer2">
-                <p><strong>고객센터</strong>
-                    <br>Tel: 1688-5757 ( 평일 09:00 ~ 18:00 )<br>
-                    이메일: koction@koction.kr<br>
-                FAX: 1688-5758</p>
-            </div>
-        </div>√
-        <div class="footer3">
-            <p>
-                (주)콕션은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 (주)콕션은 상품거래정보 및 가격에 대하여 책임을 지지 않습니다.
-                <br>
-                본사이트의 모든 정보, 콘텐츠, UI 등에 대한 무단 복제, 전송, 배포, 스크래핑 등의 행위는 관련 법령에 의하여 엄격히 금지됩니다.
-            </p>
-            <span><small>&copy; 2022 Koction</small></span>
-        </div>
-    </footer> -->
     <footer>
         <div class="footer-div">
             <div class="footer1">
