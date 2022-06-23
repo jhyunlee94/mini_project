@@ -72,6 +72,7 @@
             justify-items: center;
             align-content: center;
             border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.11);
         }
 
         img#previewImg:hover {
@@ -204,7 +205,7 @@
         td>input {
             width: 280px;
             height: 18px;
-            border-radius: 5px;
+            border-radius: 3px;
             border: 1px solid lightgray;
             outline: 0;
         }
@@ -222,13 +223,13 @@
         td>div>button.opt1 {
             display: flex;
             width: 45%;
-            height: 100%;
+            height: 80%;
             min-width: 85px;
-            min-height: 25px;
+            min-height: 20px;
             border-radius: 5px;
             justify-content: center;
             align-items: center;
-            padding: 3px;
+            padding: 2px;
             /* text-align, vertical-align 안먹음 */
             background-color: lightgray;
             border: none;
@@ -240,19 +241,101 @@
         td>div>button.opt2 {
             display: flex;
             width: 45%;
-            height: 100%;
+            height: 80%;
             min-width: 85px;
-            min-height: 25px;
+            min-height: 20px;
             border-radius: 5px;
             justify-content: center;
             align-items: center;
-            padding: 3px;
+            padding: 2px;
             /* text-align, vertical-align 안먹음 */
             background-color: lightgray;
             border: none;
         }
         td>div>button.opt2:hover {
             transform: scale(0.98);
+        }
+
+        td>div>button.opt3 {
+            display: flex;
+            width: 45%;
+            height: 80%;
+            min-width: 85px;
+            min-height: 20px;
+            border-radius: 5px;
+            justify-content: center;
+            align-items: center;
+            padding: 2px;
+            /* text-align, vertical-align 안먹음 */
+            background-color: lightgray;
+            border: none;
+        }
+        td>div>button.opt3:hover {
+            transform: scale(0.98);
+        }
+
+        td>div>button.opt4 {
+            display: flex;
+            width: 45%;
+            height: 80%;
+            min-width: 85px;
+            min-height: 20px;
+            border-radius: 5px;
+            justify-content: center;
+            align-items: center;
+            padding: 2px;
+            /* text-align, vertical-align 안먹음 */
+            background-color: lightgray;
+            border: none;
+        }
+        td>div>button.opt4:hover {
+            transform: scale(0.98);
+        }
+
+        td>div>button.opt5 {
+            display: flex;
+            width: 45%;
+            height: 80%;
+            min-width: 85px;
+            min-height: 20px;
+            border-radius: 5px;
+            justify-content: center;
+            align-items: center;
+            padding: 2px;
+            /* text-align, vertical-align 안먹음 */
+            background-color: lightgray;
+            border: none;
+        }
+        td>div>button.opt5:hover {
+            transform: scale(0.98);
+        }
+
+        td>div>button.opt6 {
+            display: flex;
+            width: 45%;
+            height: 80%;
+            min-width: 85px;
+            min-height: 20px;
+            border-radius: 5px;
+            justify-content: center;
+            align-items: center;
+            padding: 2px;
+            /* text-align, vertical-align 안먹음 */
+            background-color: lightgray;
+            border: none;
+        }
+        td>div>button.opt6:hover {
+            transform: scale(0.98);
+        }
+
+        select {
+            border: 1px solid lightgray;
+            border-radius: 3px;
+            width: 280px;
+            height: 18px;
+            font-size: 9pt;
+            text-align: center;
+            background-color: rgba(100, 100, 100, 0.1);
         }
 
         /* 4. 하단 상세 내용 기입란 */
@@ -291,7 +374,7 @@
             text-align: center;
         }
 
-        section.bottom>div.bottom-down>input {
+        section.bottom>div.bottom-down input {
             text-align: center;
             margin: 10px;
             width: 80px;
@@ -300,6 +383,11 @@
             color: black;
             border-radius: 5px;
             justify-content: right;
+        }
+
+        section.bottom>div.bottom-down :hover {
+            cursor: pointer;
+            transform: scale(0.98);
         }
 
         section.bottom>div.bottom-down .blue {
@@ -321,8 +409,33 @@
         }
         table#modal_table td {
             width: 120px;
-
+            justify-content: center;
+            align-items: center;
+            text-align: center;
         }
+
+
+        table#modal_table td{
+            width: 150px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* table#modal_table td input {
+            width: 150px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: white;
+        }
+
+        table#modal_table td select {
+            width: 150px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        } */
 
         div.modal-body {
             justify-content: center;

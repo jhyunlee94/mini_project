@@ -17,10 +17,11 @@
     <header>
         <div class="top-bg">
             <div class="top-navbar">
-                <div class="nav justify-content-end">
-                    <a class="nav-link" href="login.html">로그인</a>
-                    <a class="nav-link" href="register.html">회원가입</a>
+                <div class="nav justify-content-end topStatus">
+                    <a class="nav-link" href="#" disabled>admin님 환영합니다.</a>
+                    <a class="nav-link" href="index.html">로그아웃</a>
                 </div>
+                
             </div>
     
         </div>
@@ -284,21 +285,21 @@
                     <tbody>
                       <tr>
                         <td class="notice-type" scope="row">공지사항</td>
-                        <td class="notice-title">공지사항1공지사항1공지사항1공지사항1공지사항1공지사항1공지사항1공지사항1공지사항1공지사항1공지사항1공지사항1</td>
+                        <td class="notice-title"><a href="#">서버 점검 및 사이트 접속 불가 안내</a></td>
                         <td>934</td>
-                        <td>22.06.02</td>
+                        <td>22.06.24</td>
                       </tr>
                       <tr>
                         <td class="notice-type" scope="row">공지사항</td>
-                        <td class="notice-title">공지사항2</td>
+                        <td class="notice-title"><a href="#">7월 휴무 안내</a></td>
                         <td>3421</td>
-                        <td>22.05.02</td>
+                        <td>22.06.23</td>
                       </tr>
                       <tr>
                         <td class="notice-type" scope="row">이벤트</td>
-                        <td class="notice-title">이벤트 안내</td>
+                        <td class="notice-title"><a href="#">콕션과 함께하는 출석 이벤트 안내</a> </td>
                         <td>6785</td>
-                        <td>22.05.02</td>
+                        <td>22.05.29</td>
                       </tr>
                     </tbody>
                   </table>
@@ -366,7 +367,8 @@
                })
                 $(this).addClass('active');          
                $('.'+$(this).attr('id')).show(0,function(){});
-            });    
+            });
+            
         });
     </script>
 </body>

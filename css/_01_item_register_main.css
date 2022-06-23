@@ -147,3 +147,45 @@ div.rebidding {
     text-decoration: none;
     color: white;
 }
+
+table#modal_table {
+    width: 400px;
+    height: 400px;
+    border: none;
+    padding: 20px;
+
+}
+table#modal_table td {
+    width: 120px;
+
+}
+
+table#modal_table td .modal_table_input_right{
+    width: 180px;
+}
+
+table#modal_table td input {
+    width: 180px;
+    text-align: center;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.11);
+}
+
+table#modal_table td select {
+    width: 180px;
+    text-align: center;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.11);
+}
+
+div.modal-body {
+    justify-content: center;
+    background-color: rgba(211, 211, 211, 0.3);
+}
+
+p {
+    text-align: center;
+    color: rgb(18,100,100);
+}

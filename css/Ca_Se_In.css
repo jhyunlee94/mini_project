@@ -74,6 +74,7 @@ main>.title{
 
 #ca_list {
     margin-top: 80px;
+    margin-bottom: 70px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
@@ -274,6 +275,11 @@ main .nav-link{
 
 .ContentSection_content_section__Hkpff img{
     width: 100%;
+}
+
+/* 상품정보 */
+.ContentSection_nav__DDf0B a{
+    text-decoration: none;
 }
 
 /* 배송/반품 안내 테이블 스타일 */
