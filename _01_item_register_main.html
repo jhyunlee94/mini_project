@@ -19,12 +19,11 @@
     <header>
         <div class="top-bg">
             <div class="top-navbar">
-                <div class="nav justify-content-end">
-                    <a class="nav-link" href="#">로그인</a>
-                    <a class="nav-link" href="#">회원가입</a>
+                <div class="nav justify-content-end topStatus">
+                    <a class="nav-link" href="#" disabled>admin님 환영합니다.</a>
+                    <a class="nav-link" href="index.html">로그아웃</a>
                 </div>
             </div>
-    
         </div>
         <div class="wrap">
             <div class="logo">
@@ -41,7 +40,7 @@
                         <img src="images/bar.png" alt="막대">
                         <a class="nav-link" href="Category.html">상품검색</a>
                         <img src="images/bar.png" alt="막대">
-                        <a class="nav-link" href="_item_register">상품등록</a>
+                        <a class="nav-link" href="_01_item_register_main.html">상품등록</a>
                         <img src="images/bar.png" alt="막대">
                         <a class="nav-link" href="support.html">고객센터</a>
                         <img src="images/bar.png" alt="막대">
@@ -107,13 +106,13 @@
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                     <table>
                         <tr>
-                            <td><a><img src="images/kanu.png"></a></td>
-                            <td>상품명1</td>
-                            <td class="wide" id="name1">제목1</td>
+                            <td><a><img src="images/maxim.png"></a></td>
+                            <td>커피</td>
+                            <td class="wide" id="name1">먹다 남은 맥심 팝니다!</td>
                             <td>1</td>
-                            <td class="less_wide">500</td>
+                            <td class="less_wide">30,000</td>
                             <td>기한입찰</td>
-                            <td class="wide">2022 / 05 / 26</td>
+                            <td class="wide">2022 / 05 / 14</td>
                             <td class="sold">판매완료</td>
                             <td></td>
                         </tr>
@@ -123,7 +122,7 @@
                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <div class="detail">
-                        <div class="imageArea"><img src="images/kanu.png" alt=""></div>
+                        <div class="imageArea"><img src="images/maxim.png" alt=""></div>
                         <div class="textArea">100개 들었는데 3개 먹어서 97개 남아있습니다</div>
                     </div>
                 </div>
@@ -134,15 +133,21 @@
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapsetdree">
                     <table>
                         <tr>
-                            <td><a><img src="images/kanu.png"></a></td>
-                            <td>상품명1</td>
-                            <td class="wide" id="name2">제목2</td>
+                            <td><a><img src="images/case.png"></a></td>
+                            <td>케이스</td>
+                            <td class="wide" id="name2">맥북에어m1 케이스 팝니다</td>
                             <td>1</td>
-                            <td class="less_wide">500</td>
+                            <td class="less_wide">9,000</td>
                             <td>기한입찰</td>
-                            <td class="wide">2022 / 05 / 26</td>
+                            <td class="wide">2022 / 06 / 19</td>
                             <td class="ongoing">진행중</td>
-                            <td></td>
+                            <td>
+                                <a href="_03_myitem_edit.html">
+                                    <div class="rebidding" type="button" data-bs-toggle="modal" data-bs-target="#intro">
+                                        수정
+                                    </div>
+                                </a>
+                            </td>
                         </tr>
                     </table>
                 </button>
@@ -150,8 +155,8 @@
                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <div class="detail">
-                        <div class="imageArea"><img src="images/kanu.png" alt=""></div>
-                        <div class="textArea">100개 들었는데 3개 먹어서 97개 남아있습니다</div>
+                        <div class="imageArea"><img src="images/case.png" alt=""></div>
+                        <div class="textArea">맥북에어m1 케이스 팝니다! 미개봉품이라 상태 매우 양호합니다</div>
                     </div>
                 </div>
                 </div>
@@ -161,13 +166,13 @@
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapsetdree">
                     <table>
                         <tr>
-                            <td><a><img src="images/kanu.png"></a></td>
-                            <td>상품명1</td>
-                            <td class="wide" id="name3">제목3</td>
+                            <td><a><img src="images/iphone.jpeg"></a></td>
+                            <td>스마트폰</td>
+                            <td class="wide" id="name3">아이폰12 팝니다</td>
                             <td>1</td>
-                            <td class="less_wide">500</td>
+                            <td class="less_wide">700,000</td>
                             <td>기한입찰</td>
-                            <td class="wide">2022 / 05 / 26</td>
+                            <td class="wide">2022 / 06 / 23</td>
                             <td class="not_sold">입찰종료</td>
                             <td>
                                 <div class="rebidding" type="button" data-bs-toggle="modal" data-bs-target="#intro">
@@ -181,70 +186,8 @@
                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                 <div class="accordion-body">
                     <div class="detail">
-                        <div class="imageArea"><img src="images/kanu.png" alt=""></div>
-                        <div class="textArea">100개 들었는데 3개 먹어서 97개 남아있습니다</div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingFive">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapsetdree">
-                    <table>
-                        <tr>
-                            <td><a><img src="images/kanu.png"></a></td>
-                            <td>상품명1</td>
-                            <td class="wide" id="name4">제목4</td>
-                            <td>1</td>
-                            <td class="less_wide">500</td>
-                            <td>기한입찰</td>
-                            <td class="wide">2022 / 05 / 26</td>
-                            <td class="not_sold">입찰종료</td>
-                            <td>
-                                <div class="rebidding" type="button" data-bs-toggle="modal" data-bs-target="#intro">
-                                    재입찰
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                </button>
-                </h2>
-                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <div class="detail">
-                        <div class="imageArea"><img src="images/kanu.png" alt=""></div>
-                        <div class="textArea">100개 들었는데 3개 먹어서 97개 남아있습니다</div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="headingSix">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapsetdree">
-                    <table>
-                        <tr>
-                            <td><a><img src="images/kanu.png"></a></td>
-                            <td>커피</td>
-                            <td class="wide" id="name4">제목5</td>
-                            <td>1</td>
-                            <td class="less_wide">500</td>
-                            <td>기한입찰</td>
-                            <td class="wide">2022 / 05 / 26</td>
-                            <td class="not_sold">입찰종료</td>
-                            <td>
-                                <div class="rebidding" type="button" data-bs-toggle="modal" data-bs-target="#intro">
-                                    재입찰
-                                </div>
-                            </td>
-                        </tr>
-                    </table>
-                </button>
-                </h2>
-                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                    <div class="detail">
-                        <div class="imageArea"><img src="images/kanu.png" alt=""></div>
-                        <div class="textArea">100개 들었는데 3개 먹어서 97개 남아있습니다</div>
+                        <div class="imageArea"><img src="images/iphone.jpeg" alt=""></div>
+                        <div class="textArea">아이폰12 중고품 판매 의향 있읍니다. 약 1년 간 사용하였읍니다. 구매 의향 있으신 분은 입찰에 참여해주시면 감사하겠읍니다.</div>
                     </div>
                 </div>
                 </div>
@@ -289,11 +232,109 @@
                     <h4 class="modal-title">modal-title</h4>
                 </div>
                 <div class="modal-body">
-                    <h3>modal-body</h3>
-                    <p>modal-body</p>
+                    <table id="modal_table">
+                        <tr>
+                            <td><strong>상품명</strong></td>
+                            <td class="modal_table_input_right"><input type="text" value="스마트폰"></td>
+                        </tr>
+                        <tr>
+                            <td><strong>카테고리</strong></td>
+                            <td class="modal_table_input_right">
+                                <select id="user_path">
+                                    <optgroup label="가전">
+                                        <option value="tv">TV/영상가전</option>
+                                        <option value="web">음향가전</option>
+                                        <option value="pc">생활가전</option>
+                                        <option value="pc">주방가전</option>
+                                        <option value="pc">계절가전</option>
+                                        <option value="pc">이미용가전</option>
+                                        <option value="pc">건강가전</option>
+                                    </optgroup>
+                                    <optgroup label="디지털">
+                                        <option value="fr">노트북/주변기기</option>
+                                        <option value="cf" selected>모바일/IT용품</option>
+                                    </optgroup>
+                                    <optgroup label="주방">
+                                        <option value="tv">조리용품</option>
+                                        <option value="web">그릇/홈세트</option>
+                                        <option value="pc">밀폐/저장용품</option>
+                                        <option value="pc">주방소모품</option>
+                                        <option value="pc">컵/잔/텀블러</option>
+                                    </optgroup>
+                                    <optgroup label="생활">
+                                        <option value="tv">가구/침구/홈데코</option>
+                                        <option value="web">베이비&키즈</option>
+                                        <option value="pc">제지류</option>
+                                        <option value="pc">세탁/욕실/청소</option>
+                                        <option value="pc">생활잡화</option>
+                                        <option value="pc">오피스/문구</option>
+                                        <option value="pc">반려용품</option>
+                                    </optgroup>
+                                    <optgroup label="뷰티/패션">
+                                        <option value="tv">스킨케어</option>
+                                        <option value="web">헤어/바디케어</option>
+                                        <option value="pc">메이크업</option>
+                                        <option value="pc">향수/캔들</option>
+                                        <option value="pc">패션잡화</option>
+                                    </optgroup>
+                                    <optgroup label="생활">
+                                        <option value="tv">가구/침구/홈데코</option>
+                                        <option value="web">베이비&키즈</option>
+                                        <option value="pc">제지류</option>
+                                        <option value="pc">세탁/욕실/청소</option>
+                                        <option value="pc">생활잡화</option>
+                                        <option value="pc">오피스/문구</option>
+                                        <option value="pc">반려용품</option>
+                                    </optgroup>
+                                    <option value="etc">기타</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>수량</strong></td>
+                            <td class="modal_table_input_right"><input type="text" value="1"></td>
+                        </tr>
+                        <tr>
+                            <td><strong>시작가</strong></td>
+                            <td class="modal_table_input_right"><input type="text" value="700,000"></td>
+                        </tr>
+                        <tr>
+                            <td><strong>즉시구매가</strong></td>
+                            <td class="modal_table_input_right"><input type="text" value="800,000"></td>
+                        </tr>
+                        <tr>
+                            <td><strong>경매방식</strong></td>
+                            <td class="modal_table_input_right">
+                                <select>
+                                    <option selected>기한입찰</option>
+                                    <option>xx입찰</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>경매기간</strong></td>
+                            <td class="modal_table_input_right">
+                                <select>
+                                    <option selected>24시간</option>
+                                    <option>48시간</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><strong>배송방식</strong></td>
+                            <td class="modal_table_input_right">
+                                <select>
+                                    <option selected>택배배송</option>
+                                    <option>직거래</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                    <br>
+                    <p><strong>상기 내용으로 재등록 하시겠습니까?</strong></p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" id="rebidding_on" class="btn btn-primary" style="background-color: rgb(18,100,100)">
+                    <button type="button" id="rebidding_on" data-bs-dismiss="modal" class="btn btn-primary" style="background-color: rgb(18,100,100)" onclick="rebiddingCompleted()">
                         재입찰
                     </button>
                     <button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="background-color: lightgray">
@@ -312,15 +353,15 @@
             $(".rebidding").on("click", function() {
                 console.log($(this).parent());
                 $(".modal-title").text($("#name3").text())
-                $(".modal-body").text($("table[3]").text())
+                // $(".modal-body").text($("table[3]").text())
                 // var lis = document.getElementsByTagName("table").getElementsByTagName("td")
                 // alert(lis[3].textContent)
 
             });
         });
 
-        var lis = document.getElementsByTagName("table").document.getElementsByTagName("td")
-        alert(lis[0].textcontent)
+        // var lis = document.getElementsByTagName("table").document.getElementsByTagName("td")
+        // alert(lis[0].textcontent)
 
         // 클래스 생성
         class Item {
@@ -339,6 +380,9 @@
         var item1 = new Item("#", 'name', 'selling', 1, 1000, 'a', '2022 / 06 / 18', 'ongoing')
         $()
 
+        function rebiddingCompleted () {
+            alert("상품등록이 완료되었습니다.")
+        }
 
     </script>
 </body>
